@@ -7,3 +7,38 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+header{
+  width: 100%;
+  height: 40vh;
+  background-color: blue;
+}
+
+main {
+  width: 100%;
+  height: 800px;
+  background-color: red;
+}
+
+.float-left{
+  background-color: purple;
+  /* width: 30%; */
+  height: 100%;
+  float: left;
+}
+
+.col-sx,
+.col-dx{
+  width: 25%;
+}
+
+.col-mid{
+  width: 40%;
+  margin: 0 5%;
+}
+
+footer {
+  width: auto;
+  height: 200px;
+  background-color: yellow;
+}
